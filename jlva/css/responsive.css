@@ -63,8 +63,8 @@
 	main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-top:-10px}
 
 	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:20px; margin-top: 0px;margin-bottom: 0px;}
- h4{margin-top: 0px;margin-bottom: 0px;font-size:10px}
-	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ font-size:60px;}
+ h4{margin-top: 0px;margin-bottom: 60px;}
+	main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ font-size:2em;}
 
 	main[role="main-home-wrapper"] article{ padding-bottom:5px; padding-top:5px}
 
@@ -125,12 +125,12 @@
 	.commentys-form textarea{ margin-top:0; margin-bottom:0}
 
 
-	span{font-size: 40px;}
+	span{font-size: 2em;}
 
 	main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { max-width: 90%;}
 
 	.article-logo{
 		width: 180px;
-		padding-top: 5px;
+		padding-top: 25px;
 	}
 }
