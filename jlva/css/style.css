@@ -164,7 +164,7 @@ a:focus, img:focus, button:focus, .btn:focus {outline: none;}
 
 /*===== Header ===*/
 
-header[role="header"]{ padding-top:40px; padding-bottom:40px}
+header[role="header"]{ padding-top:10px; padding-bottom:20px}
 
 header[role="header"] h1{ padding:0; margin:0}
 
@@ -214,27 +214,29 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {top: 10px;
 
 /*===== main ===*/
 
-main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:50px; color: #ffffff;max-width: 80%;}
+main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:50px; color: #ffffff;width: 80%;max-width:1000px;}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ /*padding-left:41px*/}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header,main[role="main-inner-wrapper"] article[role="pge-title-content"] header{ padding-bottom:19px; /*padding-top:83px*/}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:2em; line-height:53px; color:#ffffff; font-weight:500; letter-spacing:0.1em;margin-top: 0px;}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:2em; line-height:53px; color:#ffffff; font-weight:500; letter-spacing:0.1em;margin-top: 0px;margin-bottom: 0px;}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h4,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:1em;}
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h4{font-size:1em;margin-top: 0px;}
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size: 4.5em; color:#2478BE; padding-bottom:15px}
+main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{ font-size:2em;}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span,main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{ display:block; font-size: 2em; color:#2478BE; padding-bottom:15px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="main-inner-wrapper"] article[role="pge-title-content"] p{ font-size:20px; line-height:30px; color:#454545}
 
 /*===== footer ===*/
 
-footer[role="footer"]{ background-color:#2478BE; padding-top:100px; padding-bottom:77px;}
+footer[role="footer"]{ background-color:#2478BE; padding-top:20px; padding-bottom:30px;}
 
 footer[role="footer"] > h1 a{ margin:0 auto; display:block; max-width:66px;}
 
-footer[role="footer"] nav{ padding-top:37px; padding-bottom:43px}
+footer[role="footer"] nav{ padding-top:5px; padding-bottom:25px}
 
 footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
 
@@ -280,7 +282,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure:hover figcaption{
 
 /*===== Blog ===*/
 
-article[role="pge-title-content"].blog-header{ padding-bottom:218px}
+article[role="pge-title-content"].blog-header{ padding-bottom:50px}
 
 section.blog-content{ margin-bottom:29px}
 
@@ -406,8 +408,8 @@ article[role="pge-title-content"].contact-header p a:hover{color:#2478BE; text-d
  display: block;
  margin-left: auto;
  margin-right: auto;
- width: 200px;
- padding-top: 10px;
+ width: 180px;
+ padding-top: 40px;
 }
 
 .article-first {text-align: center;}
@@ -417,18 +419,21 @@ background-color: #2478BE;
 margin-bottom:50px;
 padding-left: 0px !important;
 padding-right: 0px !important;
+-webkit-clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+
 /*
 -webkit-clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
 clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
 */
--webkit-clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 0 85%, 0 15%);
-clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 0 85%, 0 15%);
+/*-webkit-clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 0 85%, 0 15%);
+clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 0 85%, 0 15%);*/
 }
 
 .section-1-inner{
 	background-color: #000000;
-	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	-webkit-clip-path: polygon(50% 7%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+	clip-path: polygon(50% 7%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 	/*
 	-webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
 	clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
