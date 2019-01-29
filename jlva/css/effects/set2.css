@@ -233,7 +233,7 @@ figure.effect-oscar figcaption::before {
 
 figure.effect-oscar h2 {
 
-font-weight:400;	margin: 0 0 10px 0;
+font-weight:400;	margin: 7% 0 10px 0;
 
 	-webkit-transition: -webkit-transform 0.35s;
 
@@ -345,7 +345,7 @@ figure.effect-oscar:hover img {
 
 	figure.effect-oscar figcaption{ padding:0em}
 
-	figure.effect-oscar h2{ font-size:20px;}
+	figure.effect-oscar h2{ margin: 15% 0 10px 0;font-size:2em;}
 
 	figure.effect-oscar p{ font-size:13px;  padding:2%; display:block; width:90%; margin:0 auto;}
 
@@ -359,7 +359,7 @@ figure.effect-oscar:hover img {
 
 	figure.effect-oscar figcaption{ padding:0em}
 
-	figure.effect-oscar h2{ font-size:15px;}
+	figure.effect-oscar h2{ font-size:0.8em;margin: 15% 0 10px 0;}
 
 	figure.effect-oscar p{ font-size:13px;  padding:2%; display:block; width:90%; margin:0 auto;}
 
